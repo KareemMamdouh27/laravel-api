@@ -1,0 +1,1422 @@
+[2021-05-19 10:56:16.440] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 48% of 2453.849ms, saved PROFILE here: 'file:///tmp/exthost-374439.cpuprofile' [{"id":"alefragnani.project-manager","total":16687,"percentage":1},{"id":"amiralizadeh9480.laravel-extra-intellisense","total":223208,"percentage":9},{"id":"austenc.laravel-blade-spacer","total":184,"percentage":0},{"id":"bmewburn.vscode-intelephense-client","total":33916,"percentage":1},{"id":"codingyu.laravel-goto-view","total":1614,"percentage":0},{"id":"CoenraadS.bracket-pair-colorizer","total":496030,"percentage":20},{"id":"ctf0.php-namespace-resolver","total":946,"percentage":0},{"id":"felixfbecker.php-intellisense","total":17878,"percentage":1},{"id":"formulahendry.auto-rename-tag","total":30321,"percentage":1},{"id":"gc","total":7756,"percentage":0},{"id":"KnisterPeter.vscode-github","total":36738,"percentage":1},{"id":"michelemelluso.code-beautifier","total":1461,"percentage":0},{"id":"PKief.material-icon-theme","total":12512,"percentage":1},{"id":"program","total":3508,"percentage":0},{"id":"ritwickdey.LiveServer","total":1178563,"percentage":48},{"id":"self","total":213264,"percentage":9},{"id":"stef-k.laravel-goto-controller","total":19598,"percentage":1},{"id":"vscode.debug-auto-launch","total":1457,"percentage":0},{"id":"vscode.git","total":88975,"percentage":4},{"id":"vscode.microsoft-authentication","total":32796,"percentage":1},{"id":"vscode.npm","total":29021,"percentage":1},{"id":"vscode.php-language-features","total":5510,"percentage":0}]
+[2021-05-19 10:56:22.779] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.live-sass' took 96% of 2334.233ms, saved PROFILE here: 'file:///tmp/exthost-35b86f.cpuprofile' [{"id":"gc","total":49662,"percentage":2},{"id":"program","total":779,"percentage":0},{"id":"ritwickdey.live-sass","total":2229411,"percentage":96},{"id":"ritwickdey.LiveServer","total":641,"percentage":0},{"id":"self","total":36785,"percentage":2},{"id":"vscode.git","total":16512,"percentage":1},{"id":"vscode.php-language-features","total":164,"percentage":0}]
+[2021-05-19 13:23:49.264] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:27:08.540] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:28:29.696] [renderer1] [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/var/www/api/.env' (Error: File Modified Since) file:///var/www/api/.env
+[2021-05-19 13:28:41.846] [renderer1] [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/var/www/api/.env' (Error: File Modified Since) file:///var/www/api/.env
+[2021-05-19 13:36:50.205] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:36:58.171] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:37:03.760] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:37:05.219] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:37:07.254] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-19 13:37:08.317] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:09.148] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:19.347] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:28.764] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:31.967] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:33.999] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:36.792] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:03:40.114] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:04.365] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:11.088] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:17.280] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:20.341] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:24.081] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:35:32.162] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 14:39:25.679] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 14:39:30.234] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 14:39:37.745] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 14:39:40.911] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 14:39:47.676] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 14:39:49.234] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-20 20:20:55.528] [renderer1] [error] Invalid regular expression: /use (.+)[DummyAPI;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[DummyAPI;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 20:21:23.350] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-20 20:39:16.718] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-20 20:39:51.907] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 20:39:53.426] [renderer1] [error] Invalid regular expression: /use (.+)[UserController;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[UserController;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-20 20:39:54.127] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:23:39.401] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 17:24:51.654] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:24:53.238] [renderer1] [error] Invalid regular expression: /use (.+)[UserController;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[UserController;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:24:53.258] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:38:34.964] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 17:41:45.866] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:41:50.207] [renderer1] [error] Invalid regular expression: /use (.+)[CategoriesController;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[CategoriesController;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:41:50.614] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:51:21.513] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:51:23.244] [renderer1] [error] Invalid regular expression: /use (.+)[CategoriesController;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[CategoriesController;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:51:23.379] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 17:51:48.339] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 17:56:52.297] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 17:56:55.688] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:05:38.110] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 18:05:52.170] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 18:06:31.797] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 18:06:35.034] [renderer1] [error] Invalid regular expression: /use (.+)[PostContoller;/: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[PostContoller;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 18:06:35.653] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 18:12:29.572] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:14:58.354] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:15:18.243] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 18:34:42.816] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-21 18:35:54.892] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:36:19.827] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:49:35.544] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:49:39.739] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)
+[2021-05-21 18:52:19.311] [renderer1] [error] Cannot read property 'substring' of undefined: TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-21 19:03:17.140] [renderer1] [error] Cannot read property 'toLowerCase' of undefined: TypeError: Cannot read property 'toLowerCase' of undefined
+    at new o (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:11600)
+    at $ (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14407)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:15052
+    at async Promise.all (index 4)
+    at async f (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:14888)
+    at async Promise.all (index 0)

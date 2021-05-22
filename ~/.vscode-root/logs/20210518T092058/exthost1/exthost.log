@@ -1,0 +1,215 @@
+[2021-05-18 09:21:00.352] [exthost] [info] extension host started
+[2021-05-18 09:21:00.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-18 09:21:00.449] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-18 09:21:00.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-18 09:21:00.492] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-18 09:21:00.499] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-18 09:21:00.500] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-05-18 09:21:00.611] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2021-05-18 09:21:00.612] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/alefragnani.project-manager-12.1.0/dist/extension
+[2021-05-18 09:21:00.631] [exthost] [info] ExtensionService#_doActivateExtension austenc.laravel-blade-spacer {"startup":true,"extensionId":{"value":"austenc.laravel-blade-spacer","_lower":"austenc.laravel-blade-spacer"},"activationEvent":"*"}
+[2021-05-18 09:21:00.631] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/austenc.laravel-blade-spacer-2.1.3/out/extension
+[2021-05-18 09:21:00.633] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-05-18 09:21:00.633] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-05-18 09:21:00.653] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-05-18 09:21:00.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-05-18 09:21:00.689] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github {"startup":true,"extensionId":{"value":"KnisterPeter.vscode-github","_lower":"knisterpeter.vscode-github"},"activationEvent":"*"}
+[2021-05-18 09:21:00.689] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/knisterpeter.vscode-github-0.30.6/out/src/main
+[2021-05-18 09:21:00.916] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier {"startup":true,"extensionId":{"value":"michelemelluso.code-beautifier","_lower":"michelemelluso.code-beautifier"},"activationEvent":"*"}
+[2021-05-18 09:21:00.917] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/michelemelluso.code-beautifier-2.3.3/out/src/extension
+[2021-05-18 09:21:00.956] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-05-18 09:21:00.956] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/pkief.material-icon-theme-4.6.0/dist/extension
+[2021-05-18 09:21:00.991] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-05-18 09:21:00.991] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-05-18 09:21:01.352] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller {"startup":true,"extensionId":{"value":"stef-k.laravel-goto-controller","_lower":"stef-k.laravel-goto-controller"},"activationEvent":"*"}
+[2021-05-18 09:21:01.352] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/extension
+[2021-05-18 09:21:01.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-05-18 09:21:01.358] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-05-18 09:21:03.040] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-18 09:21:03.040] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-18 09:21:04.551] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-18 09:21:04.551] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-05-18 09:21:05.080] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.live-sass {"startup":true,"extensionId":{"value":"ritwickdey.live-sass","_lower":"ritwickdey.live-sass"},"activationEvent":"workspaceContains:**/*.s[ac]ss"}
+[2021-05-18 09:21:05.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ritwickdey.live-sass-3.0.0/out/src/extension
+[2021-05-18 09:21:08.272] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":true,"extensionId":{"value":"felixfbecker.php-intellisense","_lower":"felixfbecker.php-intellisense"},"activationEvent":"workspaceContains:**/*.php"}
+[2021-05-18 09:21:08.272] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/out/extension
+[2021-05-18 09:21:10.098] [exthost] [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan {"startup":true,"extensionId":{"value":"ryannaddy.laravel-artisan","_lower":"ryannaddy.laravel-artisan"},"activationEvent":"workspaceContainsTimeout:**/artisan"}
+[2021-05-18 09:21:10.098] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ryannaddy.laravel-artisan-0.0.27/out/src/extension
+[2021-05-18 09:21:11.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-05-18 09:21:11.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-05-18 09:21:11.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-05-18 09:21:11.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-05-18 09:21:11.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-05-18 09:21:11.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-05-18 09:21:11.417] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-18 09:21:11.417] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-18 09:21:11.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-18 09:21:11.491] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-18 09:21:11.509] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-18 09:21:11.509] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-18 09:21:11.563] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-05-18 09:21:11.564] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-05-18 09:21:11.635] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-05-18 09:21:11.635] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-6.4.0/dist/extension
+[2021-05-18 09:21:12.085] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-18 09:21:12.086] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-18 09:21:13.065] [exthost] [info] eager extensions activated
+[2021-05-18 09:21:14.226] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.226] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-05-18 09:21:14.404] [exthost] [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense {"startup":false,"extensionId":{"value":"amiralizadeh9480.laravel-extra-intellisense","_lower":"amiralizadeh9480.laravel-extra-intellisense"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.405] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js
+[2021-05-18 09:21:14.479] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.479] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-05-18 09:21:14.683] [exthost] [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view {"startup":false,"extensionId":{"value":"codingyu.laravel-goto-view","_lower":"codingyu.laravel-goto-view"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.683] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/codingyu.laravel-goto-view-1.3.4/out/src/extension
+[2021-05-18 09:21:14.929] [exthost] [info] ExtensionService#_doActivateExtension ctf0.php-namespace-resolver {"startup":false,"extensionId":{"value":"ctf0.php-namespace-resolver","_lower":"ctf0.php-namespace-resolver"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.929] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ctf0.php-namespace-resolver-0.0.6/src/extension
+[2021-05-18 09:21:14.952] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver {"startup":false,"extensionId":{"value":"MehediDracula.php-namespace-resolver","_lower":"mehedidracula.php-namespace-resolver"},"activationEvent":"onLanguage:php"}
+[2021-05-18 09:21:14.952] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2021-05-18 09:21:15.289] [exthost] [error] Activating extension MehediDracula.php-namespace-resolver failed due to an error:
+[2021-05-18 09:21:15.289] [exthost] [error] Error: command 'namespaceResolver.import' already exists
+    at E.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:106658)
+    at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:96:20596)
+    at activate (/root/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension.js:8:25)
+    at Function._callActivateOptional (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:14813)
+    at Function._callActivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:14486)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:92:12643
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Promise.all (index 5)
+[2021-05-18 09:21:52.566] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-05-18 09:21:52.674] [exthost] [error] Canceled: Canceled
+    at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+    at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+    at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:93115
+[2021-05-18 09:33:05.333] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2021-05-18 09:33:05.383] [exthost] [error] Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-18 09:33:05.687] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2021-05-18 09:33:05.688] [exthost] [error] Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-18 09:37:10.712] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2021-05-18 09:37:10.713] [exthost] [error] Error: name must not be falsy
+    at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26320)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:26269)
+    at new t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+    at Array.map (<anonymous>)
+    at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+    at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2021-05-18 09:52:11.909] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-05-18 09:52:11.950] [exthost] [error] TypeError: Cannot read property 'substring' of undefined
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:42:69)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-18 09:52:16.637] [exthost] [error] [amiralizadeh9480.laravel-extra-intellisense] provider FAILED
+[2021-05-18 09:52:16.668] [exthost] [error] SyntaxError: Invalid regular expression: /use (.+)[CategoriesController;/: Unterminated character class
+    at new RegExp (<anonymous>)
+    at x.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:142104)
+    at x.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.1/dist/extension.js:1:140518)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172114
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at M.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:172094)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190577
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:190553)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-05-18 09:52:17.223] [exthost] [error] [stef-k.laravel-goto-controller] provider FAILED
+[2021-05-18 09:52:17.226] [exthost] [error] Error: Illegal argument: range
+    at C (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:33143)
+    at new He (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:76:13328)
+    at new LaravelControllerLink (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/util.js:8:9)
+    at LinkProvider.provideDocumentLinks (/root/.vscode/extensions/stef-k.laravel-goto-controller-0.0.12/out/link.js:48:40)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175547
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12043
+    at new Promise (<anonymous>)
+    at m (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12015)
+    at B.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:175527)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192184
+    at Ce._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:180570)
+    at Ce.$provideDocumentLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:192160)
+    at l._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12836)
+    at l._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12520)
+    at l._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:11136)
+    at l._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:9973)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:8074
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29764
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at S.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15497)
+    at t._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20755)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17641
+    at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12862)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12210
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:13195)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
